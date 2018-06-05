@@ -1,35 +1,42 @@
 # ZendeskSearch
-chmod +x script/delayed_job
+ 
+ This is a basic search command line application. We use hash as a storage mechanism to store the parsed JSON data. The code   is designed in such a way that the storage mechanism can be changed as needed depending on scalability. 
 
-## Installation
-
+## Requirements
+   Make sure bundler is installed (gem install bundler)
+   Ruby 2+
+   
 Clone this repo to your machine
 
 ```ruby
-git clone 
+git clone https://github.com/koushic88/zendesk_search.git
 ```
 
-And then execute:
+Navigate to the project directory And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install zendesk_search
+    $ bundle install
 
 ## Usage
 
-TODO: Write usage instructions here
+To run the program, execute this command
 
-## Development
+  $ bundle exec bin/zendesk_search
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+If you run into issues starting the executable, it is most probably has to do with file permissions in the system.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+    $ chmod +x script/delayed_job
+
+To run the rspec test, execute this command
+
+    $ bundle exec rspec
+
+To run the lint, execute this command
+
+    $ rubocop
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/zendesk_search. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/koushic88/zendesk_search. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -37,4 +44,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the ZendeskSearch project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/zendesk_search/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the ZendeskSearch project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/koushic88/zendesk_search/blob/master/CODE_OF_CONDUCT.md).
