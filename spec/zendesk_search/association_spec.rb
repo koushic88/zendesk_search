@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 RSpec.describe ZendeskSearch::Association do
   subject do
     ZendeskSearch::Association.instance
