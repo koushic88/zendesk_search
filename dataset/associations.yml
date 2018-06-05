@@ -1,0 +1,42 @@
+users:
+  - association_name: organization
+    term: organization_id
+    source: organizations
+    associated_term: _id
+    display_terms: 
+      - name
+  - association_name: submitted tickets
+    term: _id
+    source: tickets
+    associated_term: submitter_id
+    display_terms:
+      - _id
+      - type
+      - subject
+  - association_name: assigned tickets
+    term: _id
+    source: tickets
+    associated_term: assignee_id
+    display_terms:
+      - _id
+      - type
+      - subject
+tickets:
+  - association_name: organization
+    term: organization_id
+    source: organizations
+    associated_term: _id
+    display_terms:
+      - _id
+  - association_name: assigned user
+    term: assignee_id
+    source: users
+    associated_term: _id
+    display_terms: 
+      - name
+  - association_name: submitted user
+    term: submitter_id
+    source: users
+    associated_term: _id
+    display_terms: 
+      - name

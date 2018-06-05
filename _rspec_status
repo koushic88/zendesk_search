@@ -1,0 +1,17 @@
+example_id                                         | status | run_time        |
+-------------------------------------------------- | ------ | --------------- |
+./spec/zendesk_search/association_spec.rb[1:1:1]   | passed | 0.00081 seconds |
+./spec/zendesk_search/association_spec.rb[1:1:2:1] | passed | 0.00812 seconds |
+./spec/zendesk_search/hash_storage_spec.rb[1:1:1]  | passed | 0.0001 seconds  |
+./spec/zendesk_search/hash_storage_spec.rb[1:2:1]  | passed | 0.00184 seconds |
+./spec/zendesk_search/hash_storage_spec.rb[1:3:1]  | passed | 0.00022 seconds |
+./spec/zendesk_search/hash_storage_spec.rb[1:3:2]  | passed | 0.0002 seconds  |
+./spec/zendesk_search/hash_storage_spec.rb[1:4:1]  | passed | 0.0001 seconds  |
+./spec/zendesk_search/hash_storage_spec.rb[1:4:2]  | passed | 0.00022 seconds |
+./spec/zendesk_search/hash_storage_spec.rb[1:4:3]  | passed | 0.00007 seconds |
+./spec/zendesk_search/load_spec.rb[1:1:1]          | passed | 0.00024 seconds |
+./spec/zendesk_search/load_spec.rb[1:1:2]          | passed | 0.00147 seconds |
+./spec/zendesk_search/load_spec.rb[1:1:3]          | passed | 0.00027 seconds |
+./spec/zendesk_search/load_spec.rb[1:1:4:1]        | passed | 0.00025 seconds |
+./spec/zendesk_search/search_api_spec.rb[1:1:1]    | failed | 0.0006 seconds  |
+./spec/zendesk_search_spec.rb[1:1]                 | passed | 0.00054 seconds |

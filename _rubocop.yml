@@ -1,0 +1,17 @@
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'zendesk_search.gemspec'
+    - 'Gemfile'
+
+Metrics/MethodLength: 
+  Max: 20
+
+Metrics/BlockLength:
+  Enabled: false
+
+Style/TrivialAccessors:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
