@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/koushic88/zendesk_search.svg?branch=master)](https://travis-ci.org/koushic88/zendesk_search)
+
 # ZendeskSearch
  
  This is a basic search command line application. We use hash as a storage mechanism to store the parsed JSON data. The code   is designed in such a way that the storage mechanism can be changed as needed depending on scalability. 
